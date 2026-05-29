@@ -1,0 +1,43 @@
+main
+{
+    color: #111827;
+    min-height: 400px;
+    justify-items: center;
+    text-align: center;
+    
+}
+h1, h3
+{
+    font-weight: 500;
+}
+.prices-detal
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px
+}
+.detal
+{
+    border-bottom: 1px solid #c7c7c9;
+    align-content: center;
+    display: grid;
+    align-content: start;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+.detal > p
+{
+    margin: 0;
+}
+span > p
+{
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+span
+{
+    justify-self: end;
+    text-align: center;
+}

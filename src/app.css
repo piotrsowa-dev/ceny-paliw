@@ -1,0 +1,17 @@
+@import url(./WEB/css/satoshi.css);
+:root
+{
+    --abbys: #e5f6fa;
+    --frost: #111827;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--abbys);
+    height: 100%;
+    font-family: "Geist", sans-serif;
+}
