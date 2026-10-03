@@ -24,7 +24,7 @@ export async function scrapeGov() {
       const text = $(el).text().toLowerCase();
       if (
         !articleUrl &&
-        (text.includes("maksymalna cena") || text.includes("cena detaliczna")) &&
+        (text.includes("maksymalna cena") || text.includes("cena detaliczna")) || text.includes("cpn") &&
         href.includes("/web/energia/")
       ) {
         count++

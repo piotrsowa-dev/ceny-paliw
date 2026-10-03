@@ -18,7 +18,7 @@ function Paliwa() {
 
     <main>
         <h1>Ceny paliw na dzień {formatDate(data?.detal.updated ?? null)} </h1>
-            <h3>Ceny Detaliczne Maxymalne oraz Hurtowe</h3>
+            <h3>Ceny Detaliczne Maksymalne oraz Hurtowe</h3>
         <div className="prices-detal">
             <div className="detal">
                 <p>Benzyna 95</p>
